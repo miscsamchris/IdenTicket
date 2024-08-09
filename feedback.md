@@ -2,7 +2,7 @@
 
 ## 1.	Rate Your Experience
 
-On a scale of 1 to 5, I would rate the overall developer experience with Nillion as a 3.5.
+On a scale of 1 to 5, I would rate the overall developer experience with Nillion as a 3.5
 
 Nillion offers powerful tools and a robust API, especially for handling secure computations like TOTP and AI-based tasks. The integration process is relatively smooth, and the documentation is clear. However, there may be a learning curve when first working with blind computation and ensuring compatibility with other technologies in the stack. Improved developer support or more extensive examples could elevate the experience further.
 
@@ -12,10 +12,22 @@ What docs did you use while building your project?
 
 What tools did you use while building your project?
 - Nillion SDK? (e.g., nada, nillion-devnet, pynadac)
+  * nada
+  * nillion-devnet
+  * pynadac
+  * nada-ai
+  * nada-numpy
+  * nilup
+  * py_nillion_client
+  * nillion/client-web
+  
 - Google Colab for Python development?
+  
 - Any other tools?
+  * Postman
 
 What additional docs or examples would be helpful for Nillion development?
+  * Clear architectural description of the Nillion network and information on the internal operations performed in nodes would be of great help
 
 What additional tools would be helpful for Nillion development?
 
@@ -28,16 +40,16 @@ What errors did you encounter while developing? Please describe them in detail.
 
 What was most helpful when you faced issues during development with Nillion?
 - Nillion Office Hours
+  * Jose, Mathias, Tim connected with us over a call to provide their feedback on your usecase. It was great talking to them about future possibilities of our usecases
 - Direct assistance from the Nillion team over Discord
+  * Thanks to Dave and Steph for clearing any blockers we had during development phase
 - Nillion documentation
-- Nillion SDK error messages
-- Other resources? (Please specify)
 
 ## 5. Suggestions for Improvement
 
 <h3>Technical Insights</h3>
 <ul>
-<li>The current support for NADA is limited in Nillion and needs to be extended with multiple other arithmetic operations and libraries to support more complex computations. In order to create higher grade cryptographic algorithms, we would need multi-operand computation in a single line for much cleaner code. We had to create multiple temporary variables, making the coding a bit clumsy.</li>
+<li>The current support for NADA is limited in Nillion and needs to be extended with multiple other arithmetic operations and libraries to support more complex computations. In order to create higher grade cryptographic algorithms, we would need multi-operand computation in a single line for much cleaner code. We had to create multiple temporary variables, making the code a bit clumsy.</li>
 <li>We observed some intermittent connection issues connecting to Nillion Testnet.</li>
 </ul>
 <h3>Key Benefits</h3>
