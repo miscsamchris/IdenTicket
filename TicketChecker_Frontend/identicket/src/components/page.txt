@@ -1,0 +1,14 @@
+see when the qr is scanned we must hit "@https://637b-103-216-234-205.ngrok-free.app /validate_otp" with "Request: 
+{
+    "party_ids_to_store_ids": "12D3KooWDaySDeoKfitysdGfPdiNYSrLYbH5WzsCim2ZTeorHNPG:9e41b1a7-6d72-4fcd-92c1-5adfcf39f1af",
+    "program_id": "4ggouD392Kjn3iBvVyk9msnBQ4akB8dLCfgWXVmUyfmyXndMRonPoUq5ZtLHV45xS8hDGSSLUuFNEUXbHUS6J5ya/generateotp",
+    "seed": "alicee_2345",
+    "otp": 804649
+}" and we will get response "Response:
+{
+    "data": {
+        "otp": 804649,
+        "isvalid": 1
+    }
+}" ... this data will be in the ticekt and the seed is username and if we get isvalid as 1 then set validationStaus as valid and show like green thing and this must be done after scanning
+

@@ -1,0 +1,19 @@
+name = "nada"
+version = "0.1.0"
+authors = ["Kavin","Sam"]
+
+[[programs]]
+path = "src/main.py"
+prime_size = 128
+
+[[programs]]
+path = "src/generateotp.py"
+prime_size = 128
+
+[[programs]]
+path = "src/neural_net.py"
+prime_size = 128
+
+[[programs]]
+path = "src/decimaldivision.py"
+prime_size = 128
