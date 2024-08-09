@@ -4,8 +4,6 @@
 
 On a scale of 1 to 5, I would rate the overall developer experience with Nillion as a 3.5
 
-Nillion offers powerful tools and a robust API, especially for handling secure computations like TOTP and AI-based tasks. The integration process is relatively smooth, and the documentation is clear. However, there may be a learning curve when first working with blind computation and ensuring compatibility with other technologies in the stack. Improved developer support or more extensive examples could elevate the experience further.
-
 ## 2.	Tools and Resources
 
 **What docs did you use while building your project?**
