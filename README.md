@@ -43,6 +43,41 @@ IdenTicket is a secure, blockchain-based ticketing system that integrates advanc
   ``` bash
       python app.py
   ```
+
+### Node-Server
+- Install dependencies:
+  ``` bash
+      npm install
+  ```
+- Create a .env file in the root directory and add necessary environment variables: MONGODB_URI  and  OPENAI_API_KEY
+- Start the server:
+  ``` bash
+      npm start
+  ```
+- The backend server will be running on http://localhost:3000.
+
+### UserApplication
+- Install dependencies:
+  ``` bash
+      npm install
+  ```
+- Start the development server:
+  ``` bash
+      npm run dev
+  ```
+- The frontend application will be available at http://localhost:5173.
+
+### TicketChecker
+- Install dependencies:
+  ``` bash
+      npm install
+  ```
+- Start the development server:
+  ``` bash
+      npm run dev
+  ```
+- The scanner application will be available at http://localhost:5174.
+
 ## **Usage**
 - **User Registration**: Users register using Aadhaar, which is verified through the Anon Aadhaar SDK.
 - **Ticket Purchase**: Tickets are issued as soul-bound tokens, stored securely in the Petra Wallet.
