@@ -21,8 +21,6 @@ What tools did you use while building your project?
   * py_nillion_client
   * nillion/client-web
   
-- Google Colab for Python development?
-  
 - Any other tools?
   * Postman
 
