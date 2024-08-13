@@ -29,8 +29,7 @@ On a scale of 1 to 5, I would rate the overall developer experience with Nillion
  An AI Agent for referening the docs would be really helpful, Alng with a custom trained LLM for generating Nada programs. This would be a killer feature.
  
 ## 3.	Encountered Errors
-
-What errors did you encounter while developing? Please describe them in detail.
+We didn't face many errors while deploying our final code.
 
 
 ## 4. Support and Resources
